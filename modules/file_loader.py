@@ -18,4 +18,6 @@ def load_data():
             df["value"] = df["value"].apply(parse_value)
         
         st.session_state["data"] = df
-        st.sidebar.success("Archivo cargado correctamente!")
+        st.success("Archivo cargado correctamente :)")
+        
+        st.dataframe(df)
