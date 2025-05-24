@@ -1,3 +1,25 @@
+'''
+    Integrador #2    
+    
+    Developer:
+    Franco Alejandro Paiz González - 25780     
+    
+    Sección: 40
+    
+    Facultad: Ingeniería
+    
+    Carrera: Ingeniería en Ciencia de la Computación
+        y Tecnologías de la Información
+    
+    Curso: Algoritmos y Programación Básica
+        
+    Catedrático: Carlos Augusto Alfonso Bonifaz 
+    
+    GitHub Project: https://github.com/fpaiz-2022134/Integrador_2.git
+     
+'''
+
+
 import streamlit as st
 from modules.file_loader import load_data, parse_value
 from modules.indicators import show_indicators
