@@ -17,8 +17,8 @@ def show_charts(df):
         club_df = df[df["club"] == club]
         fig1 = px.bar(
             club_df, 
-            x="Player", 
-            y="Finishing", 
+            x="player", 
+            y="finishing", 
             title=f"Capacidad de definición en {club}",
             color="finishing",
             color_continuous_scale="Viridis"
@@ -45,8 +45,8 @@ def show_charts(df):
 
         fig2 = px.scatter(
             scatter_df, 
-            x="Dribbling", 
-            y="Short Pass", 
+            x="dribbling", 
+            y="short_pass", 
             color="country", 
             hover_name="player",
             title="Relación entre regate y pase corto",
